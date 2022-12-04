@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 04, 2022 at 02:41 AM
+-- Generation Time: Dec 04, 2022 at 02:47 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `tbl_model_awards` (
 --
 
 INSERT INTO `tbl_model_awards` (`cooper_awards`, `clubman_awards`, `countryman_awards`) VALUES
-('North American Car of the Year, (2003)  / Das Goldene Lenkrad \"Car of the Year\", (2006) / MotorPress.ca \"Driver\'s Car Award\" and \"Top Pick\" 8.3/10  / Fifth Gear \"Best Small Car\" (2006)', 'None', 'Euro FCAP: 5-star Crash Rating');
+('North American Car of the Year 2003 - Das Goldene Lenkrad Car of the Year 2006 - MotorPress.ca Drivers Car Award and Top Pick 8.3/10 - Fifth Gear Best Small Car 2006', 'None', 'Euro FCAP Five-Star Crash Rating');
 
 -- --------------------------------------------------------
 
