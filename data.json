@@ -1,0 +1,20 @@
+{
+    "Cooper": {
+        "name": "Mini Cooper",
+        "id": "cooper",
+        "img": "cooper.jpg",
+        "bio": "replace with live text"
+    },
+    "Clubman": {
+        "name": "Mini Clubman",
+        "id": "clubman",
+        "img": "clubman.jpg",
+        "bio": "replace with live text"
+    },
+    "Countryman": {
+        "name": "Mini Countryman",
+        "id": "countryman",
+        "img": "countryman.jpg",
+        "bio": "replace with live text"
+    }
+  }
