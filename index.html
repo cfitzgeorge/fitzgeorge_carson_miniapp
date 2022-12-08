@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Vehicles App</title>
+    <title>Mini Vehicle Database Application</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,31 +15,30 @@
 
 <body>
     <header>
-        <h1 class="hidden">Learn about Mini Vehicles!</h1>
-        <img id="main-logo" src="images/mini-logo.png" alt="mini cooper logo">
+        <h1 class="hidden">Mini Vehicle Information</h1>
+        <img id="main-logo" src="images/mini-logo.png" alt="mini logo">
     </header>
 
     <main id="app">
-        <nav id="vehicle-nav">
-            <ul class="vehicles">
+        <nav id="car-nav">
+            <ul class="cars">
                 <!-- prof thumb component goes here -->
-                <theminithumb v-for="mini in miniData" :mini="mini"></theminithumb>
+                <theminithumb @loadlbdata="loadLightbox" v-for="mini in miniData" :mini="mini"></theminithumb>
             </ul>
         </nav>
 
         <article>
-            <h3>Select a Model Type</h3>
-            <p>Click on a vehicle model to learn more about it.</p>
+            <h3>Mini Vehicle Models Available</h3>
+            <ul>Click on any model of Mini vehicle to learn more about it.</ul>
         </article>
+
+        <thelightbox></thelightbox>
+
     </main>
     <!-- make this a sticky footer so it's always at the bottom-->
     <footer class="sticky_footer">
-        <h3>All Images &copy; Mini (BMW)</h3>
+        <h3>All Images &copy; BMW</h3>
     </footer>
-
-    <!-- lightbox component goes here -->
-
-    <!-- end lightbox component -->
     
     <!-- load script tags at the bottom -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
