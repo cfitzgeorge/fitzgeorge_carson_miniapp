@@ -1,0 +1,56 @@
+#car-nav { 
+  text-align: center; 
+  background-color: #343030; 
+  background-image: url('../images/characters_art_mas_mob_01.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.cars { list-style-type: none; }
+
+.cars li { 
+  display: inline-flex;
+  position: relative;
+  cursor: pointer;
+  height: 220px;
+  width: 35em;
+  margin: 10px 8px;
+
+  background-color: black;
+  text-align: right;
+  overflow: hidden;
+
+  /* border: thin dashed white; */
+}
+
+.cars li h5 {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 14px 8px; 
+  text-align: left;
+  z-index: 50; 
+  font-size: 20px;
+}
+
+.cars li a {
+  text-decoration: none;
+}
+
+.sprite { 
+  width: 150px;
+  height: 150px;
+
+  background-color: #333;
+}
+
+.cars li:hover .blue-bumper { height: 70px; }
+
+.blue-bumper { 
+height: 6px;
+width: 100%; 
+background-color: rgb(112, 168, 182);
+position: absolute;
+top: 150px;
+
+transition: height 0.2s ease;
+}
