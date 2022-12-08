@@ -10,11 +10,11 @@ body {
 }
 
 header { 
-  background-color: rgb(185, 182, 182); 
+  background-color: rgb(149, 196, 218); 
   position: sticky; 
   top: 0;
   text-align: center;
-} 
+}
 
 #main-logo { width: 300px; padding: 10px 0; }
 
@@ -26,6 +26,7 @@ article {
     font-size: 2em; 
     text-align: center; 
     margin-bottom: 14px; 
+    color: white;
   }
   
   article p { 

@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `tbl_model_height` (
 --
 
 INSERT INTO `tbl_model_height` (`cooper_height`, `clubman_height`, `countryman_height`) VALUES
-('1,414 mm', '1,440 mm', '1,557 mm');
+('1,414 mm', '1,440 mm', '1,440 mm');
 
 -- --------------------------------------------------------
 
@@ -160,7 +160,7 @@ CREATE TABLE IF NOT EXISTS `tbl_model_wheelbase` (
 --
 
 INSERT INTO `tbl_model_wheelbase` (`cooper_wb`, `clubman_wb`, `countryman_wb`) VALUES
-('2,495 mm', '2,670 mm', '2,670 mm');
+('2,495 mm', '2,495 mm', '2,670 mm');
 
 -- --------------------------------------------------------
 
@@ -180,7 +180,7 @@ CREATE TABLE IF NOT EXISTS `tbl_model_width` (
 --
 
 INSERT INTO `tbl_model_width` (`cooper_width`, `clubman_width`, `countryman_width`) VALUES
-('1,727 mm', '1,801 mm', '1,821 mm');
+('1,727 mm', '1,727 mm', '1,821 mm');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -1,20 +1,41 @@
 {
-    "Cooper": {
+    "MiniCooper": {
         "name": "Mini Cooper",
         "id": "cooper",
-        "img": "cooper.jpg",
-        "bio": "replace with live text"
+        "lbBG": "cooper_lbBg.jpg",
+        "biopic": "cooper.png",
+        "designer": "Stefan Goppel",
+        "awards": "replace with live text",
+        "wb": "2,495 mm",
+        "length": "3,821 mm",
+        "width": "1,727 mm",
+        "height": "1,414 mm"
     },
-    "Clubman": {
+
+    "MiniClubman": {
         "name": "Mini Clubman",
         "id": "clubman",
-        "img": "clubman.jpg",
-        "bio": "replace with live text"
+        "lbBG": "clubman_lbBg.jpg",
+        "biopic": "clubman.png",
+        "designer": "Alexander Schneider",
+        "awards": "replace with live text",
+        "wb": "2,495 mm",
+        "length": "4,375 mm",
+        "width": "1,727 mm",
+        "height": "1,440 mm"
     },
-    "Countryman": {
+
+    "MiniCountryman": {
         "name": "Mini Countryman",
         "id": "countryman",
-        "img": "countryman.jpg",
-        "bio": "replace with live text"
+        "lbBG": "countryman_lbBg.jpg",
+        "biopic": "countryman.png",
+        "designer": "Unknown",
+        "awards": "replace with live text",
+        "wb": "2,670 mm",
+        "length": "4,313 mm",
+        "width": "1,821 mm",
+        "height": "1,440 mm"
     }
+
   }
